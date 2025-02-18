@@ -1,4 +1,6 @@
 # Vaje 01 - preizkusimo teren
+Ogreli se bomo s par enostavnimi programerskimi nalogami (1-3), razlaga Collatzove domneve sledi na tabli.
+Nato sledi eksperimentalna naloga (4),
 
  1. V datoteki v01-stevila.txt je 100000 celih števil. Preberi datoteko in izpiši koliko je v njej števil, ki so manjša od 100000.
 
@@ -17,4 +19,6 @@
                 d.append(lst[i])
     return d
  ```
- Narišite krivuljo (podobno kot smo naredili na predavanjih), ki bo pokazala, kako se spreminja čas izvajanja (v povprečju), ko se vhodni seznam povečuje.
+ - Razmislite, kaj ta funkcija počne?
+
+ - Narišite krivuljo (podobno kot smo naredili na predavanjih), ki bo pokazala, kako se spreminja čas izvajanja (v povprečju), ko se vhodni seznam povečuje.
