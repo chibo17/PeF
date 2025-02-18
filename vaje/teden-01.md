@@ -19,6 +19,6 @@ Nato sledi eksperimentalna naloga (4),
                 d.append(lst[i])
     return d
  ```
- - Razmislite, kaj ta funkcija počne?
+ - Razmislite, kaj ta funkcija počne? A bi znali zapisati specifikacijo te funkcije ?
 
  - Narišite krivuljo (podobno kot smo naredili na predavanjih), ki bo pokazala, kako se spreminja čas izvajanja (v povprečju), ko se vhodni seznam povečuje.
