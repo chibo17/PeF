@@ -26,3 +26,28 @@ def insert_sort(arr):
 		while j>0 and arr[j]<arr[j-1]:
 			arr[j], arr[j-1] = arr[j-1],arr[j]
 			j-=1
+
+def make_random_list(n):
+	return [random.randint(1,100000) for i in range(n)]
+
+
+def test_sort(sort_function, l):
+	a = l
+	start = time.time()
+	sort_function(a)
+	end = time.time()
+	return end-start
+
+measures_1 = []
+measures_2 = []
+measures_3 = []
+for n in range(1000,10000,1000):
+	measures_1.append(test_sort(insert_sort,make_random_list(n)))
+	measures_2.append(test_sort(insert_sort,list(range(n))))
+	measures_3.append(test_sort(insert_sort,list(range(n,0,-1))))
+
+# insert sort
+plt.plot(range(1000,10000,1000), measures_1) #avg case
+plt.plot(range(1000,10000,1000), measures_2) #best case
+plt.plot(range(1000,10000,1000), measures_3) #worst case
+plt.show()
