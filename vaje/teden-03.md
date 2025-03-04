@@ -13,4 +13,7 @@
  3. Zapišite hitro urejanje (quicksort), vendar za razbijanje uporabite Lomutovo metodo
 
  4. Narišite graf primerjave časa še za to urejanje - primerjate z mergesort in quicksort, ki smo ju razvili na predavanjih.
+ 5. **Uganka:** Najdi pesem v datoteki v03-uganka.txt
+
+
 
