@@ -25,8 +25,8 @@
 
     Testni program imate med viri v datoteki v04-program.c.
 
-4. Implementirajte funkcijo
-    ```python
-    def zipper(list1, list2)
-    ```
-    ki sprejme dva seznama (LinkedList) in vrne nov seznam, kjer so element obeh seznamov po vzorcu zadrge. Npr, če prvi seznam vsebuje elemente 1, 2, 3, 4 in drugi seznam elemente 5,6,7,8 potem naj ta funkcija vrne nov seznam, ki vsebuje elemente (v podanem vrstnem redu): 1, 5, 2, 6, 3, 7, 4, 8. Če je kakšen seznam daljši od drugega, vse elemente preprosto dodamo na konec.
+4. Napišite funkcijo (v razred LinkedList):
+```python
+def add_second(self, x)
+```
+ki v seznam vedno doda na drugo mesto. 
