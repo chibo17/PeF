@@ -16,6 +16,6 @@ Ciljna tabela naj bo velika 31.
 Ali lahko najdete dve slovenski besedi, ki se s to metodo preslikata v isto število.
 
 
-3. Med viri imate podano datoteko v01-slovar.txt s seznamom slovenskih besed. Shranite vse besede v razpršeno tabelo, kjer trke razrešujete z veriženjem. Za obe razprševalni funkciji (metoda množenja in metoda deljenja) izmerite, koliko je:
+3. Med viri imate podano datoteko v01-slovar.txt s seznamom slovenskih besed. Shranite vse besede v razpršeno tabelo, kjer trke razrešujete z veriženjem. Za razprševalno funkcijo z deljenjem izmerite, koliko je:
 -  **povprečna dolžina seznamov** v tabeli in
 - **največja dolžina seznamov** v tabeli.
