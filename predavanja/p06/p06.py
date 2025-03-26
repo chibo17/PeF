@@ -80,3 +80,21 @@ def make_dummy_fs():
     d4 = FSNode("Namizje", True, [d1,d2,d3])
     return d4
     
+
+class ExpressionTreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+    
+    def __str__(self):
+        if self.left and self.right:
+            return f"({str(self.left)} {self.value} {str(self.right)})"
+        else:
+            return str(self.value)
+    
+    def evaluate(self):
+        pass
+
+def make_tree(expr):
+    pass

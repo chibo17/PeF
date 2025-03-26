@@ -42,9 +42,9 @@ class ExpressionTreeNode:
     
     def __str__(self):
         if self.left and self.right:
-            return f"({str(self.left)} {self.value} {str(node.right)})"
+            return f"({str(self.left)} {self.value} {str(self.right)})"
         else:
-            return str(node.value)
+            return str(self.value)
     
     def evaluate(self):
         TODO
