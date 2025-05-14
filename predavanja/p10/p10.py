@@ -5,10 +5,27 @@ class NaiveDisjointSets:
     def __init__(self, n):
         self.name = list(range(n))
 
-    # implemetiramo na predavanjih
     def union(self, u, v):
-        pass
+        name_u = self.name[u]
+        name_v = self.name[v]
+        for i in range(len(self.name)):
+            if self.name[i] == name_v:
+                self.name[i] = name_u
 
+
+class DisjointSets:
+    def __init__(self, n):
+        self.name = list(range(n))
+    
+    def find(self, i):
+        while self.name[i] != i:
+            i = self.name[i]
+        return i
+    
+    def union(self, u, v):
+        name_u = self.find(u)
+        name_v = self.find(v)
+        self.name[name_v] = name_u
 
 
 class GraphWAL:
@@ -41,6 +58,7 @@ class GraphWAL:
                 ds.union(u, v)
                 mst.add_edge(u, v, w)
         return mst
+    
     
     def show(self):
         G = nx.Graph()
