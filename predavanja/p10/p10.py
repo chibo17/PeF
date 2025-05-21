@@ -71,3 +71,15 @@ class GraphWAL:
         nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
         plt.show()
         
+
+#-------------- izris labirinta --------------------
+def draw_maze_ascii(maze, n, m):
+    maze_ascii = [['#' for _ in range(2 * m + 1)] for _ in range(2 * n + 1)]
+    for u in range(n):
+        for v in range(m):
+            maze_ascii[2 * u + 1][2 * v + 1] = ' '
+            if maze.is_edge(u * m + v, (u + 1) * m + v):
+                maze_ascii[2 * u + 2][2 * v + 1] = ' '
+            if maze.is_edge(u * m + v, u * m + (v + 1)):
+                maze_ascii[2 * u + 1][2 * v + 2] = ' '
+    return '\n'.join(''.join(row) for row in maze_ascii)
