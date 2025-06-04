@@ -8,7 +8,7 @@ class BST:
 ```
 
 Kot delovni primer vzemimo spodnje drevo:
-![](img\ex_tree1.png)
+![primer drevesa](img\ex_tree1.png)
 
 0. V kalupu imate podano funkcijo `tree_from_list`, kakšen seznam morate podati tej funkciji, da dobite točno tako drevo, kot je na zgornji sliki?
 
