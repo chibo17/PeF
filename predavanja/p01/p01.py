@@ -22,17 +22,24 @@ def bisection_find(x,d):
             r = mid -1
     return False
 
-def test(d):
+def test(d, f):
     start = time.time()
     for i in range(100000):
         x = random.choice(d)
-        bisection_find(x,d)
+        f(x,d)
     end = time.time()
     return end-start
 
-inputs = range(1000, 1000000, 100000)
+inputs = range(1000, 10000, 1000)
 
+times_n = []
+times_log = []
 for n in inputs:
-    print(test(list(range(n))))
+    t1 = test(list(range(n)), find)
+    t2 = test(list(range(n)), bisection_find)
+    times_n.append(t1)
+    times_log.append(t2)
 
-
+plt.plot(inputs, times_n)
+plt.plot(inputs, times_log)
+plt.show()
