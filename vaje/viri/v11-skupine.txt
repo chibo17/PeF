@@ -1,0 +1,5 @@
+UČENCI|Ajda,Bor,Cene,Dora,Eva,Filip,Gaja,Hugo,Iza,Jaka
+SKUPINE|Robotika,Ustvarjalni atelje,Naravoslovni krog,Športna akademija
+KAPACITETE|Robotika:3,Ustvarjalni atelje:3,Naravoslovni krog:2,Športna akademija:2
+ŽELJE|Ajda:Robotika,Ustvarjalni atelje;Bor:Robotika,Športna akademija;Cene:Ustvarjalni atelje,Naravoslovni krog;Dora:Naravoslovni krog,Ustvarjalni atelje;Eva:Robotika,Naravoslovni krog;Filip:Ustvarjalni atelje,Športna akademija;Gaja:Naravoslovni krog,Robotika;Hugo:Robotika,Ustvarjalni atelje;Iza:Športna akademija,Naravoslovni krog;Jaka:Ustvarjalni atelje,Športna akademija
+NE_ŽELJE|Ajda:Naravoslovni krog,Športna akademija;Bor:Ustvarjalni atelje,Naravoslovni krog;Cene:Robotika,Športna akademija;Dora:Robotika;Eva:;Filip:Robotika,Naravoslovni krog;Gaja:Ustvarjalni atelje;Hugo:Naravoslovni krog,Športna akademija;Iza:Robotika,Ustvarjalni atelje;Jaka:Robotika,Naravoslovni krog
